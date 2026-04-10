@@ -1,0 +1,15 @@
+# Questão 13. O preço de um automóvel é a soma do preço de fábrica, impostos (45% do preço de fábrica) e a porcentagem do revendedor (28% do preço de fábrica).
+# Fazer um algoritmo que leia o preço de fábrica e mostre o preço final.
+
+# Entrada de dados
+preco_fabrica = float(input("Digite o preço de fábrica do automóvel: R$ "))
+
+# Cálculos das porcentagens baseadas no preço de fábrica
+impostos = preco_fabrica * 0.45
+revendedor = preco_fabrica * 0.28
+
+# Preço final
+preco_final = preco_fabrica + impostos + revendedor
+
+# Exibição
+print("O preço final do carro ao consumidor é: R$", preco_final)

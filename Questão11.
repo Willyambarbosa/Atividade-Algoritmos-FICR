@@ -1,0 +1,11 @@
+# Questão 11. Faça um algoritmo que deverá receber como entrada o valor da compra do cliente e o valor pago, em seguida deverá apresentar o troco.
+
+# Entrada de dados
+valor_compra = float(input("Digite o valor total da compra: R$ "))
+valor_pago = float(input("Digite o valor pago pelo cliente: R$ "))
+
+# Cálculo do troco
+troco = valor_pago - valor_compra
+
+# Exibição
+print("O valor do troco a ser entregue é: R$", troco)

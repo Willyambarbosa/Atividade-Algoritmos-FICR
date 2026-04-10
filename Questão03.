@@ -1,0 +1,13 @@
+# Questão 3. Fazer um algoritmo que obtenha dois números inteiros, x e y, mostre o quociente e o resto da divisão inteira entre eles.
+
+# Entrada de dados
+x = int(input("Digite o valor de x: "))
+y = int(input("Digite o valor de y: "))
+
+# Operadores de divisão inteira (//) e resto (%)
+quociente = x // y
+resto = x % y
+
+# Exibição
+print("Quociente:", quociente)
+print("Resto da divisão:", resto)

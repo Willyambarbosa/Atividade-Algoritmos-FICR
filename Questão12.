@@ -1,0 +1,15 @@
+# Questão 12. Fazer um algoritmo que calcule a média aritmética de (7, 8, 9) e (4, 5, 6). Mostre a soma das duas médias e a média das médias.
+
+# Cálculo das médias fixas pedidas no enunciado
+media1 = (7 + 8 + 9) / 3
+media2 = (4 + 5 + 6) / 3
+
+# Cálculos finais
+soma_medias = media1 + media2
+media_das_medias = soma_medias / 2
+
+# Exibição
+print("Média do grupo 1 (7,8,9):", media1)
+print("Média do grupo 2 (4,5,6):", media2)
+print("Soma das duas médias:", soma_medias)
+print("Média das médias:", media_das_medias)

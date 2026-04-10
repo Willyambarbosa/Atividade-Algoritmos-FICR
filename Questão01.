@@ -1,0 +1,11 @@
+# Questão 1. Faça um algoritmo que recebe dois valores inteiros e mostra o resultado da multiplicação.
+
+# Entrada de dados
+valor1 = int(input("Digite o primeiro número inteiro: "))
+valor2 = int(input("Digite o segundo número inteiro: "))
+
+# Cálculo da multiplicação
+resultado = valor1 * valor2
+
+# Exibição do resultado
+print("O resultado da multiplicação é:", resultado)

@@ -1,0 +1,10 @@
+# Questão 5. Fazer um algoritmo que converta centímetros para polegadas (obs.: 1pol = 2.54cm).
+
+# Entrada de dados
+cm = float(input("Digite o valor em centímetros: "))
+
+# Cálculo da conversão
+polegadas = cm / 2.54
+
+# Exibição
+print(cm, "centímetros equivalem a", polegadas, "polegadas")

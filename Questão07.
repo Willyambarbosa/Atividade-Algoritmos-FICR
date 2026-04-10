@@ -1,0 +1,13 @@
+# Questão 7. Fazer um algoritmo que calcule e mostre a área e o volume de um cilindro. (A=2*pi*r*(h+r) e V=pi*r^2*h)
+
+# Entrada de dados
+raio = float(input("Digite o raio da base do cilindro: "))
+altura = float(input("Digite a altura do cilindro: "))
+
+# Fórmulas
+area = 2 * 3.14 * raio * (altura + raio)
+volume = 3.14 * (raio * raio) * altura
+
+# Exibição
+print("A área do cilindro é:", area)
+print("O volume do cilindro é:", volume)

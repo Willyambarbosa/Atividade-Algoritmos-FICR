@@ -1,0 +1,10 @@
+# Questão 6. Faça um algoritmo que recebe o valor do raio de um círculo e apresenta o valor da área desse círculo.
+
+# Entrada de dados
+raio = float(input("Digite o raio do círculo: "))
+
+# Cálculo da área (Pi aproximado em 3.14)
+area = 3.14 * (raio * raio)
+
+# Exibição
+print("A área do círculo com raio", raio, "é:", area)

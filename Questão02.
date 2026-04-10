@@ -1,0 +1,11 @@
+# Questão 2. Fazer um algoritmo que leia um número e mostre o seu antecessor e o seu sucessor.
+
+# Entrada de dados
+numero = int(input("Digite um número inteiro: "))
+
+# Lógica para encontrar vizinhos
+antecessor = numero - 1
+sucessor = numero + 1
+
+# Exibição
+print("Para o número", numero, "o antecessor é", antecessor, "e o sucessor é", sucessor)

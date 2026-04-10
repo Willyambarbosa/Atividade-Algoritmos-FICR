@@ -1,0 +1,15 @@
+# Questão 9. Ler dois valores para as variáveis A e B, e efetuar as trocas de forma que A passe a ter o valor de B e vice-versa.
+
+# Entrada de dados
+a = input("Digite o valor da variável A: ")
+b = input("Digite o valor da variável B: ")
+
+# Lógica de troca usando uma variável temporária (reserva)
+reserva = a
+a = b
+b = reserva
+
+# Exibição
+print("Valores trocados:")
+print("O novo valor de A é:", a)
+print("O novo valor de B é:", b)

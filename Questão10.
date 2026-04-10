@@ -1,0 +1,26 @@
+# Questão 10. Faça um algoritmo que mostra a quantidade de cédulas de um caixa eletrônico.
+# O algoritmo recebe o valor inteiro a ser sacado e apresenta a menor quantidade de cada cédula possível.
+
+# Entrada de dados
+valor_saque = int(input("Digite o valor que deseja sacar: R$ "))
+
+# Lógica de divisões sucessivas para notas de 100, 50, 20 e 10
+notas100 = valor_saque // 100
+valor_saque = valor_saque % 100
+
+notas50 = valor_saque // 50
+valor_saque = valor_saque % 50
+
+notas20 = valor_saque // 20
+valor_saque = valor_saque % 20
+
+notas10 = valor_saque // 10
+valor_saque = valor_saque % 10
+
+# Exibição
+print("Quantidade de cédulas:")
+print("Cédulas de R$ 100:", notas100)
+print("Cédulas de R$ 50:", notas50)
+print("Cédulas de R$ 20:", notas20)
+print("Cédulas de R$ 10:", notas10)
+print("Resto (valores menores que R$ 10):", valor_saque)
